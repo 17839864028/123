@@ -1,0 +1,118 @@
+*{
+	margin: 0px auto;
+	list-style: none;
+}
+.header{
+	background-color: #0A4F9D;
+	height: 167px;
+	width: 1000px;
+	padding-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.denglu{
+	margin-top: 0px;
+	float: right;
+	
+}
+.denglu a:link{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.denglu a:visited{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.denglu a:hover{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.denglu a:active{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.erji{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+#头部 p{
+	text-align: left;
+	font-size: 23px;
+}
+#头部 img {
+	height: 700px;
+}
+#dibu{
+	text-align: center;
+	margin-top: 90px;
+	background-color: #BECEDE;
+	height: 60px;
+	font-size: 10px;
+}
+#dibu a{
+	text-decoration: none;
+	color: black;
+}
+#dibu p{
+	padding-top: 8px;
+}
+#dibu img{
+	height: 15px;
+	position: relative;
+	margin-top: -10px;
+}
+ul {margin: 0px;padding: 0px;}
+ul li{
+	height: 32px;
+	width:99px;
+	list-style: none;
+	float: left;
+	diaplay:inline;
+	font: 0.9em Arial, Helvetica, sans-serif;
+	position:relative;z-index:1000;
+	}
+ul li a{
+	color: white;
+	width: 100px;
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	text-decoration: none;
+	background-color: #0A4F9D;
+	display: block;
+	line-height: 29px;
+	border: 1px solid black;
+	
+}
+ul li ul li{
+	height: 25px;
+	}
+ul li ul li a{
+	background: #0A4F9D;
+	line-height: 24px;
+	}
+ul li a:hover{
+	background: #0A4F9D;
+	color: #05FFF8;
+	}
+ul li ul {
+	display: none;
+	}
+ul li ul li
+{
+	height: 25px;
+	}
+ul li ul li a{
+	background:#0A4F9D;
+	line-height: 24px;
+	}
+ul li a:hover{
+	background: #0A4F9D;
+	}
+ul li ul {display: none;}
+ul li:hover ul{display: block;}
+ul li ul li a:hover{background-color: blue}

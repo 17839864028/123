@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>经贸学院</title>
+		<link type="text/css" rel="stylesheet" href="./css/主页面.css">
+		<script type="text/javascript" src="js/swiper.js"></script>
+		<link rel="stylesheet" href="./css/滚动.css">
+	</head>
+	<body>
+		<div class="header">
+			<img src="img/logo.png" class="headerpic">
+			<div class="头部">
+				<table>
+					<td><a href="#" class="denglu-chao">学生</a></td>
+					<td><a href="#" class="denglu-chao">|</a></td>
+					<td><a href="#" class="denglu-chao">教工</a></td>
+					<td><a href="#" class="denglu-chao">|</a></td>
+					<td><a href="#" class="denglu-chao">校友</a></td>
+					<td><a href="#" class="denglu-chao">|</a></td>
+					<td><a href="登录.html" class="denglu-chao" target="_blank">登录</a></td>
+				</table>
+				<p style="color:white;font-size: 10px;margin-top: 30px;margin-left: auto;">2020年11月17日 星期二<br>庚子年（鼠）十月初三</p>
+			</div>
+			<div class="erji">
+				<ul>
+					<li><a href="#" style="color: #B0004D">首页</a></li>
+					<li><a href="#">学校概述</a>
+					<ul>
+						<li><a href="#">学校简介</a></li>
+						<li><a href="#">现任领导</a></li>
+						<li><a href="#">美丽校园</a></li>
+						<li><a href="#">大事记</a></li>
+					</ul>
+					</li>
+					<li><a href="#">管理机构</a>
+					<ul>
+						<li><a href="#">校长办公室</a></li>
+						<li><a href="#">党委办公室</a></li>
+						<li><a href="#">宣传部</a></li>
+						<li><a href="#">人事处</a></li>
+						<li><a href="#">教务处</a></li>
+						<li><a href="#">科技处</a></li>
+						<li><a href="#">学生工作处</a></li>
+						<li><a href="#">招生就业处</a></li>
+						<li><a href="#">财务处</a></li>
+						<li><a href="#">后勤保障与资产管理处</a></li>
+						<li><a href="#">对外联络处</a></li>
+						<li><a href="#">校企合作与社会服务处</a></li>
+						<li><a href="#">对外联络处</a></li>
+						<li><a href="#">保卫处</a></li>
+						<li><a href="#">团委</a></li>
+						<li><a href="#">图书馆</a></li>
+						<li><a href="#">现代教育技术中心</a></li>
+						<li><a href="#">教学评估与质量监控中心</a></li>
+					</ul>
+					</li>
+					<li><a href="#">院系设置</a>
+					<ul>
+						<li><a href="#">管理学院</a></li>
+						<li><a href="#">经济学院</a></li>
+						<li><a href="#">商学院</a></li>
+						<li><a href="#">会计学院</a></li>
+						<li><a href="#">艺术设计学院</a></li>
+						<li><a href="#">传媒学院</a></li>
+						<li><a href="#">外国语学院</a></li>
+						<li><a href="#">智慧制造学院</a></li>
+						<li><a href="#">计算机与人工智能学院</a></li>
+						<li><a href="#">土木建筑学院</a></li>
+						<li><a href="#">马克思主义学院</a></li>
+						<li><a href="#">公共教学部</a></li>
+					</ul>
+					</li>
+					<li><a href="#">教育教学</a></li>
+					<li><a href="#">人才招聘</a></li>
+					<li><a href="#">招生就业</a>
+					<ul>
+						<li><a href="#">招生工作</a></li>
+						<li><a href="#">就业信息</a></li>
+					</ul>
+					</li>
+					<li><a href="#">图书馆藏</a></li>
+					<li><a href="#">服务指南</a>
+					<ul>
+						<li><a href="#">校历安排</a></li>
+						<li><a href="#">办公电话</a></li>
+						<li><a href="#">表格下载</a></li>
+						<li><a href="#">来校路线</a></li>
+						<li><a href="#">公共服务</a></li>
+					</ul>
+					</li>
+					<li><a href="#">校内导航</a></li>
+				</ul>
+				<!-- 滚动图片 -->
+			</div>
+			<div class="gundong">
+								<div class="swiper-container">
+								<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="./img/1111.jpg" alt="" width="1000px" height="260px"></div>
+								<div class="swiper-slide"><img src="./img/2222.jpg" alt="" width="1000px" height="260px"></div>
+								<div class="swiper-slide"><img src="./img/3333.jpg" alt="" width="1000px" height="260px"></div>
+								<div class="swiper-slide"><img src="./img/4444.jpg" alt="" width="1000px" height="260px"></div>
+								</div>
+								<!-- 如果需要分页器 -->
+								<div class="swiper-pagination"></div>
+								 <!-- 如果需要导航按钮 -->
+								<!-- <div class="swiper-button-prev"></div> 
+								<div class="swiper-button-next"></div> -->			
+								</div>			
+						</div>		
+							<script type="text/javascript">
+								var swiper=new Swiper('.swiper-container',{
+									pagination:'.swiper-pagination', // 如果需要分页器
+									paginationClickable :true, 	// 如果需要分页器			
+									loop:true, // 循环模式选项
+									autoplay:3000,
+									speed:1000,				
+									// 如果需要前进后退按钮
+									 navigation: {
+									    nextEl: '.swiper-button-next',
+									    prevEl: '.swiper-button-prev',
+									 },
+									effect:'slide',//effect:'flip','coverflow','slide','fade','cube'
+									// grabCursor:true, //贴心服务，设置为true时，鼠标覆盖Swiper时指针会变成手掌形状
+									cube:{
+										shadow:false,
+										slideShadows:false,
+										shadowOffset:20,
+										shadowScale:0.94,
+										}				
+								});
+							</script>
+							<!-- 滚动文字 -->
+				<div class="gundongwenzi">
+					<marquee >
+						<span class="gdwz"><a href="#">河南省优秀民办学校</a></span>
+						<span class="gdwz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<span class="gdwz"><a href="#">人民满意的民办高校</a></span>
+						<span class="gdwz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<span class="gdwz"><a href="#">2013年最具社会影响力民办高校</a></span>
+						<span class="gdwz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<span class="gdwz"><a href="#">河南高等教育就业质量十佳示范院校</a></span>
+						<span class="gdwz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<span class="gdwz"><a href="#">河南高等教育质量社会满意十佳院校</a></span>
+						<span class="gdwz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						</marquee>
+					</div>
+			</div>
+		</div>
+		<div id="m1">
+			<!-- 综合要闻 -->
+		<div id="h1">
+			<div id="h11">
+				<li>综合要闻<a href="#">更多</a></li>
+				<p><a href="子页面1.html">我校召开本学期第三次教学行政例会</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-28</p>
+				<p><a href="#">我校举办“奋斗有我，为梦发声”第一届主持人大赛</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-28</p>
+				<p><a href="#">我校学子在2020年河南省职业生涯规划大赛豫西...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-27</p>
+				<p><a href="#">我校召开“十四五”发展规划编制工作座谈会</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-25</p>
+				<p><a href="#"> 我校成功举办2021届毕业生天基人才专场就业双...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-24</p>
+				<p><a href="#">我校学子在第六届全国大学生金融精英挑战赛中再创...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-24</p>
+					</div><br>
+					<!-- 通知公告三栏 -->
+					<div id="h12">
+						<li><a href="#">通知公告</a></li>
+						<p><a href="#">关于2021年度个人所得税专项附加扣除信息确认</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-24</p>
+						<p><a href="#">关于进一步加强“学习强国”学习平台管理和使用工作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-30</p>
+						<p><a href="#">关于开展2020年度校园新媒体平台备案及年审工作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-28</p>
+						<p><a href="#">关于开展2020年度科研成果登记工作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11-28</p>
+						<p><a href="#">中华高校网报道郑州经贸学院第四届大学生求职技能大赛</a>&nbsp;&nbsp;11-28</p>
+						<p><a href="#">媒体聚焦 -中华高校网报道我校学生在第十三届“高教杯</a>&nbsp;&nbsp;11-30</p>
+					</div>
+				</div>
+		<!-- 校园生活 -->
+		<div id="h2">
+			<div id="h21">
+				<h4>校园生活<a href="#">更多</a></h4>
+				<br>
+			<h1><a href="校园生活1.html" target="_blank">艺术设计学院召开2021版人才培养方案研讨...</a></h1><br>
+				<h2><img width="160"src="./img/会议现场(33).jpg"></h2>
+				<h3>为进一步优化艺术设计学院各专业人才培养方案，提高人才培养质量，11月27日，艺术与设计学院在4号楼4307召开2021版人才培养方案研讨会，艺术设计学院院长牛玖荣、副院长高雪美以及各专业教研室主任参加</h3>
+				</div>
+				<br>
+				<div id="h22">
+					<h1><a href="校园生活2.html" target="_blank">外国语学院举行人才培养方案专家论证会</a></h1><br>
+					<h2><img width="160"src="img/嘻嘻嘻.jpg" ></h2>
+					<h3> 为进一步优化外国语学院本科专业人才培养方案，提高人才培养质量，11月25日，外国语学院在3441会议室举行人才培养方案专家论证会。论证会邀请中原工学院外国语学院姚晓鸣教授、升达经贸管理学院外国语学院张</h3>
+				</div>
+			</div>
+		</div>
+		<div id="h3">
+			<div id="h31">
+				<img src="img/logo.2.png" >
+				<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在线开放教程</a></li><br>
+				<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;综合教务系统</a></li><br>
+				<li><a href="#">&nbsp;&nbsp;&nbsp;教师在线学习中心</a></li><br>
+				<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教师发展中心</a></li><br>
+				<li><a href="#">&nbsp;&nbsp;&nbsp;公共艺术教育教学</a></li><br>
+			</div>
+		</div>
+		</div>
+		<div id="dibu">
+			<p>河南省郑州市南龙湖宜居教育园双湖大道2号 邮编：451191 招生咨询电话：0371-62499999<p>
+			<p><img src="img/警徽.png" >郑公备：41018402000263 |<a href="#"> 豫ICP备09006164号-1</a></p>
+		</div>
+	</body>
+</html>

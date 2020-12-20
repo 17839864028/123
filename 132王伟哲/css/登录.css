@@ -1,0 +1,167 @@
+*{
+	margin: 0px auto;
+}
+.header{
+	background-color: #0A4F9D;
+	height: 167px;
+	width: 1000px;
+	padding-bottom: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+.denglu{
+	margin-top: 0px;
+	float: right;
+	
+}
+.denglu a:link{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.denglu a:visited{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.denglu a:hover{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.denglu a:active{
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+	}
+.erji{
+	border: 1px solid gray;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#图片 img{
+	width :350px;
+	height: 450px;
+	margin-top: -700px;
+	margin-left: 300px;
+	border: 2px;
+}
+#登录界面{
+	border: 1px ;
+	width: 500px;
+	height: 500px;
+	margin-left: 200px;
+}
+#登录界面 h2{
+	position: relative;
+	padding-left: 200px;
+	padding-top: 50px;
+	color: #00ff00;
+	font-size: 40px;
+	font-family: 楷体;
+}
+#登录界面 p{
+	position: relative;
+	padding-left: 110px;
+}
+#登录界面 h1{
+	position: relative;
+	padding-left: 200px;
+}
+#图片左 {
+	border: 1px ;
+	width: 300px;
+	height: 490px;
+	margin-left: -8px;
+	margin-top: -480px;
+}
+#图片左 img{
+	height: 458px;
+	padding-top: 26px;
+	padding-left: -20px;
+}
+#图片右 {
+	border: 1px ;
+	width: 5000px;
+	height: 480px;
+	margin-right: 50px;
+	margin-top: -480px;
+	padding-left: 10px;
+}
+#图片右 img{
+	height: 451px;
+	width: 350px;
+	padding-top: 26px;
+	padding-left: 639px;
+}
+#dibu{
+	text-align: center;
+	margin-top: 90px;
+	background-color: #BECEDE;
+	height: 60px;
+	font-size: 10px;
+}
+#dibu a{
+	text-decoration: none;
+	color: black;
+}
+#dibu p{
+	padding-top: 8px;
+}
+#dibu img{
+	height: 15px;
+	position: relative;
+	margin-top: -10px;
+}
+ul {margin: 0px;padding: 0px;}
+ul li{
+	height: 32px;
+	width:99px;
+	list-style: none;
+	float: left;
+	diaplay:inline;
+	font: 0.9em Arial, Helvetica, sans-serif;
+	position:relative;z-index:1000;
+	}
+ul li a{
+	color: white;
+	width: 100px;
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	text-decoration: none;
+	background-color: #0A4F9D;
+	display: block;
+	line-height: 29px;
+	border: 1px solid black;
+	
+}
+ul li ul li{
+	height: 25px;
+	}
+ul li ul li a{
+	background: #0A4F9D;
+	line-height: 24px;
+	}
+ul li a:hover{
+	background: #0A4F9D;
+	color: #05FFF8;
+	}
+ul li ul {
+	display: none;
+	}
+ul li ul li
+{
+	height: 25px;
+	}
+ul li ul li a{
+	background:#0A4F9D;
+	line-height: 24px;
+	}
+ul li a:hover{
+	background: #0A4F9D;
+	}
+ul li ul {display: none;}
+ul li:hover ul{display: block;}
+ul li ul li a:hover{background-color: blue}
